@@ -64,6 +64,6 @@
 ### Inference
 | Notebook | Description |
 |----------|-------------|
-| [L2-inference.ipynb](experiments/L2-inference.ipynb) | Recall for search in L2 subset (138 lenses) |
+| [inference-L2.ipynb](experiments/inference-L2.ipynb) | Recall for search in L2 subset (138 lenses) |
 
 
