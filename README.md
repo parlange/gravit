@@ -14,13 +14,13 @@
 > ### 📘 [Monthly Notices of the Royal Astronomical Society (MNRAS)](https://academic.oup.com/mnras/article/533/1/525/7700722)
 
 ---
-### 🌌 Dataset: HOLISMOKES VI (Cañameras et al., 2021)(C21) 
+### 🌌 C21 dataset: HOLISMOKES VI (Cañameras et al., 2021)
 > ### 🔗 [Astronomy & Astrophysics (A&A)](https://www.aanda.org/articles/aa/abs/2021/09/aa41758-21/aa41758-21.html)
 > #### Training: 40,000 mocklenses and 40,000 non-lenses. Validation: 500 of each class.
 > #### Hyper Suprime-Cam (HSC) _gri_ bands and Hubble Ultra Deep Field (HUDF) ACS and WFC3 bands
 
 
-### 🌌 Dataset: SuGOHI X (Jaelani et al., 2024)(J24)
+### 🌌 J24 dataset: SuGOHI X (Jaelani et al., 2024)
 > ### 🔗 [Monthly Notices of the Royal Astronomical Society (MNRAS)](https://academic.oup.com/mnras/article/535/2/1625/7842018)
 > #### 18,660 lenses and 18,660 non-lens objects
 > #### Hyper Suprime-Cam (HSC) _gri_ bands
