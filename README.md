@@ -46,7 +46,7 @@
 | [b3-J24-all-blocks.ipynb](experiments/b3-J24-all-blocks.ipynb) | Train all layers |
 
 
-### Combined (C21 + J24)
+### Combined (C21+J24)
 | Notebook | Description |
 |----------|-------------|
 | [c1-C21+J24-classification-head.ipynb](experiments/c1-C21+J24-classification-head.ipynb) | Fine-tune only the classification head |
