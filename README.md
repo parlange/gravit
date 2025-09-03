@@ -7,7 +7,7 @@
 
 # GraViT: Transfer Learning with Vision Transformers and MLP-Mixer for Strong Gravitational Lens Discovery
 > ## René Parlange, Juan C. Cuevas-Tello, Octavio Valenzuela, Omar de J. Cabrera-Rosas, Tomás Verdugo, Anupreeta More, Anton T. Jaelani
-> ### 📘 [arXiv pre-print](https://arxiv.org/)
+> ### 📘 [arXiv preprint](https://arxiv.org/abs/2509.00226)
 
 ## Systematic comparison of neural networks used in discovering strong gravitational lenses
 > ### Anupreeta More, Raoul Canameras, Anton T. Jaelani, Yiping Shu, Yuichiro Ishida, Kenneth C. Wong, Kaiki Taro Inoue, Stefan Schuldt, Alessandro Sonnenfeld
