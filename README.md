@@ -1,6 +1,6 @@
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.16897575.svg)](https://doi.org/10.5281/zenodo.16897575)
 [![ORCID](https://img.shields.io/badge/ORCID-0000--0002--3900--7184-green.svg)](https://orcid.org/0000-0002-3900-7184)
-[![arXiv](https://img.shields.io/badge/arXiv-2501.XXXXX-b31b1b.svg)](https://arxiv.org/abs/2509.00226)
+[![arXiv](https://img.shields.io/badge/arXiv-2509.00226-b31b1b.svg)](https://arxiv.org/abs/2509.00226)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Python 3.12](https://img.shields.io/badge/python-3.12-teal.svg)](https://www.python.org/downloads/)
 [![PyTorch](https://img.shields.io/badge/PyTorch-2.0+-ee4c2c.svg)](https://pytorch.org/)
