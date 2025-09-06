@@ -11,7 +11,7 @@
 
 ## Systematic comparison of neural networks used in discovering strong gravitational lenses
 > ### Anupreeta More, Raoul Canameras, Anton T. Jaelani, Yiping Shu, Yuichiro Ishida, Kenneth C. Wong, Kaiki Taro Inoue, Stefan Schuldt, Alessandro Sonnenfeld
-> ### 📘 [Monthly Notices of the Royal Astronomical Society (MNRAS)](https://academic.oup.com/mnras/article/533/1/525/7700722)
+> ### 📓 [Monthly Notices of the Royal Astronomical Society (MNRAS)](https://academic.oup.com/mnras/article/533/1/525/7700722)
 
 ---
 ### 🌌 C21 dataset: HOLISMOKES VI (Cañameras et al., 2021)
@@ -35,7 +35,7 @@
 |----------|-------------|
 | [a1-C21-classification-head.ipynb](experiments/a1-C21-classification-head.ipynb) | Fine-tune only the classification head |
 | [a2-C21-half.ipynb](experiments/a2-C21-half.ipynb) | Fine-tune half of the layers |
-| [a3-C21-all-blocks+ResNet18.ipynb](experiments/a3-C21-all-blocks+ResNet18.ipynb) | Train all layers + ResNet18 |
+| [a3-C21-all-blocks+ResNet18.ipynb](experiments/a3-C21-all-blocks+ResNet18.ipynb) | Train all layers + ResNet18 baseline |
 
 
 ### SuGOHI X (J24)
@@ -51,7 +51,7 @@
 |----------|-------------|
 | [c1-C21+J24-classification-head.ipynb](experiments/c1-C21+J24-classification-head.ipynb) | Fine-tune only the classification head |
 | [c2-C21+J24-half.ipynb](experiments/c2-C21+J24-half.ipynb) | Fine-tune half of the layers |
-| [c3-C21+J24-all-blocks+ResNet18.ipynb](experiments/c3-C21+J24-all-blocks+ResNet18.ipynb) | Train all transformer blocks + ResNet18 |
+| [c3-C21+J24-all-blocks+ResNet18.ipynb](experiments/c3-C21+J24-all-blocks+ResNet18.ipynb) | Train all transformer blocks + ResNet18 baseline |
 
 
 ### Subsampled C21 (18,660 samples)
@@ -59,7 +59,7 @@
 |----------|-------------|
 | [s1-C21-18660-classification-head.ipynb](experiments/s1-C21-18660-classification-head.ipynb) | Fine-tune only the classification head |
 | [s2-C21-18660-half.ipynb](experiments/s2-C21-18660-half.ipynb) | Fine-tune half of the layers |
-| [s3-C21-18660-all-blocks+ResNet18.ipynb](experiments/s3-C21-18660-all-blocks+ResNet18.ipynb) | Train all layers + ResNet18 |
+| [s3-C21-18660-all-blocks+ResNet18.ipynb](experiments/s3-C21-18660-all-blocks+ResNet18.ipynb) | Train all layers + ResNet18 baseline |
 
 
 ### Inference
