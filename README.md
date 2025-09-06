@@ -1,25 +1,26 @@
-[![arXiv](https://img.shields.io/badge/arXiv-2501.XXXXX-b31b1b.svg)](https://arxiv.org/abs/2501.XXXXX)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.16897575.svg)](https://doi.org/10.5281/zenodo.16897575)
 [![ORCID](https://img.shields.io/badge/ORCID-0000--0002--3900--7184-green.svg)](https://orcid.org/0000-0002-3900-7184)
+[![arXiv](https://img.shields.io/badge/arXiv-2509.00226-b31b1b.svg)](https://arxiv.org/abs/2509.00226)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![Python 3.12](https://img.shields.io/badge/python-3.12-blue.svg)](https://www.python.org/downloads/)
+[![Python 3.12](https://img.shields.io/badge/python-3.12-teal.svg)](https://www.python.org/downloads/)
 [![PyTorch](https://img.shields.io/badge/PyTorch-2.0+-ee4c2c.svg)](https://pytorch.org/)
 
 # GraViT: Transfer Learning with Vision Transformers and MLP-Mixer for Strong Gravitational Lens Discovery
 > ## René Parlange, Juan C. Cuevas-Tello, Octavio Valenzuela, Omar de J. Cabrera-Rosas, Tomás Verdugo, Anupreeta More, Anton T. Jaelani
-> #### 📘 [arXiv pre-print](https://arxiv.org/)
+> ### 📘 [arXiv preprint](https://arxiv.org/abs/2509.00226)
 
 ## Systematic comparison of neural networks used in discovering strong gravitational lenses
 > ### Anupreeta More, Raoul Canameras, Anton T. Jaelani, Yiping Shu, Yuichiro Ishida, Kenneth C. Wong, Kaiki Taro Inoue, Stefan Schuldt, Alessandro Sonnenfeld
-> #### 📘 [Monthly Notices of the Royal Astronomical Society (MNRAS)](https://academic.oup.com/mnras/article/533/1/525/7700722)
+> ### 📓 [Monthly Notices of the Royal Astronomical Society (MNRAS)](https://academic.oup.com/mnras/article/533/1/525/7700722)
 
 ---
-### 🌌 Dataset: HOLISMOKES VI (Cañameras et al., 2021) (C21) 
+### 🌌 C21 dataset: HOLISMOKES VI (Cañameras et al., 2021)
 > ### 🔗 [Astronomy & Astrophysics (A&A)](https://www.aanda.org/articles/aa/abs/2021/09/aa41758-21/aa41758-21.html)
 > #### Training: 40,000 mocklenses and 40,000 non-lenses. Validation: 500 of each class.
 > #### Hyper Suprime-Cam (HSC) _gri_ bands and Hubble Ultra Deep Field (HUDF) ACS and WFC3 bands
 
 
-### 🌌 Dataset: SuGOHI X (Jaelani et al., 2024)(J24)
+### 🌌 J24 dataset: SuGOHI X (Jaelani et al., 2024)
 > ### 🔗 [Monthly Notices of the Royal Astronomical Society (MNRAS)](https://academic.oup.com/mnras/article/535/2/1625/7842018)
 > #### 18,660 lenses and 18,660 non-lens objects
 > #### Hyper Suprime-Cam (HSC) _gri_ bands
@@ -34,7 +35,7 @@
 |----------|-------------|
 | [a1-C21-classification-head.ipynb](experiments/a1-C21-classification-head.ipynb) | Fine-tune only the classification head |
 | [a2-C21-half.ipynb](experiments/a2-C21-half.ipynb) | Fine-tune half of the layers |
-| [a3-C21-all-blocks+ResNet18.ipynb](experiments/a3-C21-all-blocks+ResNet18.ipynb) | Train all layers + ResNet18 |
+| [a3-C21-all-blocks+ResNet18.ipynb](experiments/a3-C21-all-blocks+ResNet18.ipynb) | Train all layers + ResNet18 baseline |
 
 
 ### SuGOHI X (J24)
@@ -45,12 +46,12 @@
 | [b3-J24-all-blocks.ipynb](experiments/b3-J24-all-blocks.ipynb) | Train all layers |
 
 
-### Combined (C21 + J24)
+### Combined (C21+J24)
 | Notebook | Description |
 |----------|-------------|
 | [c1-C21+J24-classification-head.ipynb](experiments/c1-C21+J24-classification-head.ipynb) | Fine-tune only the classification head |
 | [c2-C21+J24-half.ipynb](experiments/c2-C21+J24-half.ipynb) | Fine-tune half of the layers |
-| [c3-C21+J24-all-blocks+ResNet18.ipynb](experiments/c3-C21+J24-all-blocks+ResNet18.ipynb) | Train all transformer blocks + ResNet18 |
+| [c3-C21+J24-all-blocks+ResNet18.ipynb](experiments/c3-C21+J24-all-blocks+ResNet18.ipynb) | Train all transformer blocks + ResNet18 baseline |
 
 
 ### Subsampled C21 (18,660 samples)
@@ -58,12 +59,12 @@
 |----------|-------------|
 | [s1-C21-18660-classification-head.ipynb](experiments/s1-C21-18660-classification-head.ipynb) | Fine-tune only the classification head |
 | [s2-C21-18660-half.ipynb](experiments/s2-C21-18660-half.ipynb) | Fine-tune half of the layers |
-| [s3-C21-18660-all-blocks+ResNet18.ipynb](experiments/s3-C21-18660-all-blocks+ResNet18.ipynb) | Train all layers + ResNet18 |
+| [s3-C21-18660-all-blocks+ResNet18.ipynb](experiments/s3-C21-18660-all-blocks+ResNet18.ipynb) | Train all layers + ResNet18 baseline |
 
 
 ### Inference
 | Notebook | Description |
 |----------|-------------|
-| [L2-inference.ipynb](experiments/L2-inference.ipynb) | Recall for search in L2 subset (138 lenses) |
+| [inference-L2.ipynb](experiments/inference-L2.ipynb) | Recall for search in L2 subset (138 lenses) |
 
 
