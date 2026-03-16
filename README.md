@@ -67,6 +67,25 @@
 |----------|-------------|
 | [inference-L2.ipynb](experiments/inference-L2.ipynb) | Recall for search in L2 subset (138 lenses) |
 
+<p align="center">
+  <img src="vit.png" alt="Vision Transformer (ViT) architecture" width="80%">
+  <br><em>Figure 1: Vision Transformer (ViT) architecture.</em>
+</p>
+
+<br><br>
+
+<p align="center">
+  <img src="mlp-mixer.png" alt="MLP-Mixer architecture" width="80%">
+  <br><em>Figure 2: MLP-Mixer architecture.</em>
+</p>
+
+### Resources
+
+| Resource | Link |
+|---|---|
+| 🤗 Models (Hugging Face) | https://huggingface.co/collections/parlange/gravit |
+| 📦 Models (Zenodo) | https://zenodo.org/records/16897575 |
+
 ## Citation
 
 If you use this work in your research, please cite:
