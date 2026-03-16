@@ -67,4 +67,21 @@
 |----------|-------------|
 | [inference-L2.ipynb](experiments/inference-L2.ipynb) | Recall for search in L2 subset (138 lenses) |
 
+## Citation
 
+If you use this work in your research, please cite:
+```bibtex
+@article{10.1093/mnras/staf1747,
+    author = {Parlange, René and Cuevas-Tello, Juan C and Valenzuela, Octavio and Cabrera-Rosas, Omar de J and Verdugo, Tomás and More, Anupreeta and Jaelani, Anton T},
+    title = {GraViT: transfer learning with vision transformers and MLP-Mixer for strong gravitational lens discovery},
+    journal = {Monthly Notices of the Royal Astronomical Society},
+    volume = {545},
+    number = {2},
+    pages = {staf1747},
+    year = {2025},
+    month = {10},
+    issn = {0035-8711},
+    doi = {10.1093/mnras/staf1747},
+    url = {https://doi.org/10.1093/mnras/staf1747},
+}
+```
