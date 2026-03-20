@@ -69,14 +69,14 @@
 
 <p align="center">
   <img src="vit.png" alt="Vision Transformer (ViT) architecture" width="80%">
-  <br><em>Figure 1: Vision Transformer (ViT) architecture.</em>
+  <br><em>Figure 1: Vision Transformer (ViT) architecture for strong gravitational lens detection.</em>
 </p>
 
 <br><br>
 
 <p align="center">
   <img src="mlp-mixer.png" alt="MLP-Mixer architecture" width="80%">
-  <br><em>Figure 2: MLP-Mixer architecture.</em>
+  <br><em>Figure 2: MLP-Mixer architecture for strong gravitational lens detection.</em>
 </p>
 
 ### Resources
